@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,800);
+body {
+  background-color: #f4f4f4;
+  color: #000;
+  font-family: 'Dosis', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+
+
+
+#header {
+  background-color: #262529;
+  font-family: 'Dosis', sans-serif;
+  color:#EE3557;
+  height: 75px;
+  text-align: left;
+  font-size: 15px;
+  h3 {
+    margin-top:10px;
+    font-size: 50px;
+    padding: 25px;
+  }
+
+  a{
+    color:#EE3557;
+    text-decoration: none;
+  }
+}
+
+.post {
+  width: 57vw ;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  background-color: #fff;
+  text-align: center;
+  min-height: 30vw;
+  margin-bottom: 30px;
+
+img {
+  margin-top: 20px;
+  height: auto;
+  max-width: 100%;
+  top:50px;
+  min-height: 20vw;
+} 
+a {
+  color: #EE3557;
+  font-size: 2.8vw;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  position: relative;
+  line-height: 90%;
+  top: 22px;
+  bottom: 15px;
+  &:visited {
+    color: #EE3557;
+  }
+  &:hover {
+    color: #EE3557;
+   
+  }
+  
+}
+}
+
+
+
+#content{
+  background: #F4F4F4;
+  margin-top: 3px;
+  margin: center;
+  width:60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.social{
+  float: right;
+  top:10em;
+  background-color: #fff;
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+  margin-top: -36em;
+  height: 10em;
+  padding: 1em;
+}
+

@@ -1,0 +1,9 @@
+<tr class="post">
+  <td><div class="post">
+  	<h3><%= link_to  post.title.capitalize, post  %></h3>
+  <%= link_to(image_tag(post.image, :alt=> post.description), post) %><br>
+  <div class="fb-like" data-href="https://motherfoc.us/posts/<%= post.slug %>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+  </div>
+</td>
+</tr>
+
